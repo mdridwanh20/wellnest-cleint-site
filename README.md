@@ -1,12 +1,46 @@
-# React + Vite
+# 🛍️ Wellnest – React E-Commerce Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Wellnest** is a modern, full-stack e-commerce website built with React.js, offering seamless browsing, shopping cart functionality, authentication, and fast delivery features.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Review
 
-## Expanding the ESLint configuration
+Check out the live version of Wellnest here:  
+➡️ [Wellnest Live Demo](https://wellnestridwan.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- **React.js** front-end with Tailwind CSS for responsive and sleek UI  
+- **Node.js** & **Express.js** server-side API  
+- **MongoDB** database using Mongoose for storage of products and orders  
+- **Firebase Authentication** for secure user sign-up/sign-in  
+- Admin panel to manage products & orders  
+- Role-based access control (user/admin)  
+- Real-time notifications for order updates (via Firebase/Socket.io)  
+- Shopping cart and wishlist support  
+- Product search, sorting, and pagination  
+- Secure checkout integration (e.g., Stripe or PayPal)  
+- Fully responsive design (mobile, tablet, desktop)
+
+---
+
+## 📦 Tech Stack
+
+| Layer            | Technologies                            |
+|------------------|------------------------------------------|
+| Frontend         | React.js, React Router, Tailwind CSS     |
+| Backend          | Node.js, Express.js                      |
+| Database         | MongoDB (with Mongoose ORM)              |
+| Authentication   | Firebase Authentication                  |
+| State Management | React Context API (or Redux)             |
+| Styling & UI     | Tailwind CSS                             |
+| Hosting          | Vercel/Netlify (frontend), Heroku/DigitalOcean/AWS (backend) |
+| Configuration    | dotenv for environment variables         |
+
+---
+
+## 📁 Folder Structure
+
